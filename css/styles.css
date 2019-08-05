@@ -1,93 +1,209 @@
-    .header-container,
-    .navigation-container,
-    .sliding-images,
-    .top-container,
-    .middle-container,
-    .bottom-container,
-    .footer-container {
-        background-color: gainsboro;
-    }
-    
-    a {
-        font-family: 'Montserrat', sans-serif;
-        color: #11999E;
-        text-decoration: none;
-    }
-    
-    body {
-        margin: 0;
-        padding: 16px;
-    }
-    
-    hr {
-        border-color: brown;
-        border-width: 4px;
-        border-style: dotted none none;
-        width: 5%;
-    }
-    
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-family: 'Montserrat', sans-serif;
-    }
-    
-    h1,
-    h2 {
-        font-size: 2.0rem;
-        color: #66BFBF;
-    }
-    
-    h2 {
-        font-weight: 300;
-    }
-    
-    h3 {
-        font-size: 1.6rem;
-        color: #11999E;
-    }
-    
-    h4,
-    h5,
-    h6 {
-        font-size: 1.2rem
-    }
-    
-    p,
-    td,
-    input,
-    label {
-        font-family: 'Poppins', sans-serif;
-    }
-    
-    button {
-        color: olivedrab;
-        background-color: blanchedalmond;
-        border-style: none;
-        font-family: 'Poppins', sans-serif;
-        font-weight: bold;
-    }
-    
-    .top-container {
-        width: 50%;
-        margin: 100px auto 100px auto;
-        text-align: left;
-        line-height: 2;
-    }
-    
-    .middle-container {
-        width: 50%;
-        line-height: 2;
-        text-align: right;
-        margin: 100px auto 100px auto;
-    }
-    
-    .bottom-container {
-        width: 50%;
-        line-height: 2;
-        text-align: left;
-        margin: 100px auto 100px auto;
-    }
+body {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 91px;
+}
+
+
+/* All the h1 and h2 are used for company name in navbar */
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: green;
+}
+
+
+/* All the h3 are used for heading */
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: green;
+}
+
+
+/* .carousel Images */
+
+.carousel-item>img {
+    /* min-height: 360px; */
+    width: 100%;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-container {
+    padding: 0;
+}
+
+.navbar-light .navbar-brand>h2 {
+    color: green;
+    font-weight: 700;
+}
+
+.navbar-brand>h6 {
+    color: grey;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: green;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: grey;
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: green;
+}
+
+.nav-item,
+.navbar-name {
+    margin: auto 0.75rem;
+}
+
+button.navbar-toggler {
+    outline-style: auto;
+    outline-color: lightgrey;
+    outline-width: 5px;
+}
+
+button.navbar-toggler:focus {
+    outline-style: auto;
+    outline-color: green;
+    outline-width: 5px;
+}
+
+
+/* About-Quality-Downloads */
+
+#aboutOualityDownloads {
+    padding: 3rem 2rem;
+}
+
+.about-quality-downloads {
+    text-align: center;
+    padding: 2rem;
+}
+
+.about-quality-downloads>h3 {
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.about-quality-downloads>p {
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-quality-downloads .btn {
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+    font-weight: 700;
+}
+
+.about-quality-downloads .btn:hover {
+    color: green;
+}
+
+.about-quality-downloads .btn:focus {
+    box-shadow: none;
+}
+
+.fas-icon {
+    color: green;
+    margin-bottom: 1rem;
+}
+
+.download-links {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+.download-item {
+    margin: 1rem auto;
+}
+
+.download-item>a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+    font-weight: bold;
+}
+
+.download-item>a:hover {
+    color: green;
+}
+
+
+/* Product Cards */
+
+#productCards {
+    padding: 2rem 4rem;
+}
+
+#productCards>h3 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.card-link {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+    font-weight: bold;
+}
+
+.card-link:hover {
+    color: green;
+}
+
+.card-column {
+    padding: 3rem 2rem;
+}
+
+.card>img {
+    height: 250px;
+}
+
+.card-title {
+    color: green;
+}
+
+.card-text {
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+
+.product-button {
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+    font-weight: 700;
+}
+
+.product-button:hover {
+    color: green;
+}
+
+.product-button:focus {
+    box-shadow: none;
+}
+
+
+/* Testimonials */
+
+#testimonials {
+    height: 500px;
+    background-color: grey;
+}
+
+#address-maps {
+    height: 500px;
+    background-color: blanchedalmond;
+}
