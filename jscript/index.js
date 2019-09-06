@@ -1,0 +1,1 @@
+$(".card").addClass("card-division dark-theme");

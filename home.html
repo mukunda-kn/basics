@@ -20,9 +20,9 @@
 <body>
     <!-- Novigation Bar -->
     <section id="navigationBar">
-        <div class="container-fluid navbar-container">
-            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand navbar-name" href="home.html">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="home.html">
                     <h2>POLY VALVE TECH</h2>
                     <h6>Designed with Perfection</h6>
                 </a>
@@ -42,7 +42,7 @@
                             <a class="nav-link" href="gallery.html">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contactus.html">Contact Us</a>
+                            <a class="nav-link" href="#addressMaps">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -88,23 +88,23 @@
 
     <!-- About Quality Downloads-->
     <section id="aboutOualityDownloads">
-        <div class="row">
-            <div class="about-quality-downloads col-lg-4">
+        <div class="row ">
+            <div class="col-lg-4 about-column">
                 <i class="fas fa-users fa-3x fas-icon"></i>
-                <h3>About Us</h3>
-                <p> <strong>POLY VALVE TECH</strong> the premier manufacturer of Industrial Valves established in August 2012. We also engaged in supply of spares,maintenance and reconditioning of all types of valves.</p>
+                <h3 class="section-heading">About Us</h3>
+                <p class="aqd-para"> <strong>POLY VALVE TECH</strong> the premier manufacturer of Industrial Valves established in August 2012. We also engaged in supply of spares,maintenance and reconditioning of all types of valves.</p>
                 <button class="btn">Read More</button>
             </div>
-            <div class="about-quality-downloads col-lg-4">
+            <div class=" col-lg-4 about-column">
                 <i class="fas fa-check-double fa-3x fas-icon"></i>
-                <h3>Our Quality Policy</h3>
-                <p>"We committed to design, develop, manufacture and supply valves, to the satisfaction of our customers through Innovation, Quality Leadership, Accurate plan, Employee development and continually improve the effectiveness of the quality
+                <h3 class="section-heading">Our Quality Policy</h3>
+                <p class="aqd-para">"We committed to design, develop, manufacture and supply valves, to the satisfaction of our customers through Innovation, Quality Leadership, Accurate plan, Employee development and continually improve the effectiveness of the quality
                     system."
                 </p>
             </div>
-            <div class="about-quality-downloads col-lg-4">
+            <div class="col-lg-4 about-column">
                 <i class="fas fa-download fa-3x fas-icon"></i>
-                <h3>Downloads</h3>
+                <h3 class="section-heading">Downloads</h3>
                 <ul class="download-links">
                     <li class="download-item">
                         <a href="">Catalogue</a>
@@ -122,10 +122,10 @@
 
     <!-- Products Card -->
     <section id="productCards">
-        <h3>Our Products</h3>
+        <h3 class="section-heading">Our Products</h3>
         <div class="row">
             <div class="card-column col-md-6 col-lg-3">
-                <div class="card border-success mb-3 h-100 text-center">
+                <div class="card mb-3 h-100 text-center">
                     <img src="images/ballvalve.jpg" class="card-img-top" alt="ballvalve">
                     <div class="card-body">
                         <h5 class="card-title">Ball Valve</h5>
@@ -135,7 +135,7 @@
                 </div>
             </div>
             <div class="card-column col-md-6 col-lg-3">
-                <div class="card border-success mb-3 h-100 text-center">
+                <div class="card mb-3 h-100 text-center">
                     <img src="images/gatevalve.jpg" class="card-img-top" alt="gatevalve">
                     <div class="card-body">
                         <h5 class="card-title">Gate Valve</h5>
@@ -145,7 +145,7 @@
                 </div>
             </div>
             <div class="card-column  col-md-6 col-lg-3">
-                <div class="card border-success mb-3 h-100 text-center">
+                <div class="card mb-3 h-100 text-center">
                     <img src="images/globevalve.jpg" class="card-img-top" alt="globevalve">
                     <div class="card-body">
                         <h5 class="card-title">Globe Valve</h5>
@@ -155,7 +155,7 @@
                 </div>
             </div>
             <div class="card-column col-md-6 col-lg-3">
-                <div class="card border-success mb-3 h-100 text-center">
+                <div class="card mb-3 h-100 text-center">
                     <img src="images/butterflyvalve.jpg" class="card-img-top" alt="butterflyvalve">
                     <div class="card-body">
                         <h5 class="card-title">Butterfly Vavle</h5>
@@ -170,22 +170,80 @@
         </div>
     </section>
 
-    <!-- Testimonials -->
-    <section id="testimonials">
-        <h1>Testimonials</h1>
+    <!-- Enquiry -->
+    <section id="enquiry">
+        <h3 class="section-heading">Enquiry</h3>
+        <div class="form-column">
+            <form>
+                <div class="form-row">
+                    <div class="form-group text-center  col-md-6">
+
+                        <input type="text" class="form-control input-box" id="firstName" placeholder="First Name">
+                    </div>
+                    <div class="form-group text-center  col-md-6">
+
+                        <input type="text" class="form-control input-box" id="lastName" placeholder="Last Name">
+                    </div>
+                    <div class="form-group text-center  col-md-6">
+
+                        <input type="number" class="form-control input-box" id="phoneNumber" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group text-center  col-md-6">
+                        <input type="email" class="form-control input-box" id="emailId" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-group text-center ">
+                    <textarea class="form-control textarea-box" rows="10" id="message" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn send-btn btn-success">Send</button>
+            </form>
+        </div>
     </section>
 
     <!-- Address and Maps -->
-    <section id="address-maps">
-        <h1>Address and Maps</h1>
-
+    <section id="addressMaps">
+        <div class="row">
+            <div class=" col-lg-3 address-column">
+                <h3 class="section-heading">Contact Us</h3>
+                <p> <i class="fas fa-user-tie fas-icon-address"></i> <strong>V.C MAHAJANA SHETTAR</strong></p>
+                <p><i class="fas fa-briefcase fas-icon-address"></i> <strong>Chief Operating Officer</strong></p>
+                <p><i class="fas fa-phone-alt fas-icon-address"></i> 9739512003</p>
+                <p><i class="fas fa-envelope-open fas-icon-address"></i> purchase@polyvalvetech.com</p>
+            </div>
+            <div class=" col-lg-3 address-column">
+                <h3 class="section-heading">Reach Us</h3>
+                <p> <i class="fas fa-map-marker-alt fas-icon-address"></i> SM-286, M.T.Sagar, 1st Gate, Industrial Estate, Gokul Road, Hubballi-580030.</p>
+                <p><i class="fas fa-phone-alt fas-icon-address"></i> 0836-2330729</p>
+                <p><i class="fas fa-envelope-open fas-icon-address"></i> sales@polyvalvetech.com</p>
+                <div>
+                    <i class="fab fa-2x fas-icon-social fa-facebook-f fas-icon-facebook"></i>
+                    <i class="fab fa-2x fas-icon-social fa-twitter fas-icon-twitter"></i>
+                    <i class="fab fa-2x fas-icon-social fa-instagram fas-icon-instagram"></i>
+                </div>
+            </div>
+            <div class="col-lg-6 maps-column">
+                <h6>Include Maps Here</h6>
+            </div>
+        </div>
+    </section>
+    <!-- Copyright -->
+    <section id="copyRight">
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <p>Copyright © 2019 | Poly Valve Tech</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <p>Developed By: <a class="manomaya-link" href="https://www.manomayasoft.com">Manomaya Softwares, Hubli</a></p>
+            </div>
+        </div>
     </section>
 
     <!-- JQuery and JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    <!-- Custom Script -->
+    <script src="jscript/index.js"></script>
 </body>
 
 </html>

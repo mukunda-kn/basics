@@ -1,209 +1,246 @@
-body {
-    font-family: 'Poppins', sans-serif;
-    padding-top: 91px;
-}
-
-
-/* All the h1 and h2 are used for company name in navbar */
-
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    color: green;
-}
-
-
-/* All the h3 are used for heading */
-
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    color: green;
-}
-
-
-/* .carousel Images */
-
-.carousel-item>img {
-    /* min-height: 360px; */
-    width: 100%;
-}
-
-
-/* Navigation Bar */
-
-.navbar {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.navbar-container {
-    padding: 0;
-}
-
-.navbar-light .navbar-brand>h2 {
-    color: green;
-    font-weight: 700;
-}
-
-.navbar-brand>h6 {
-    color: grey;
-    font-weight: 700;
-}
-
-.navbar-light .navbar-nav .active>.nav-link {
-    color: green;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: grey;
-    font-weight: 700;
-}
-
-.navbar-light .navbar-nav .nav-link:focus,
-.navbar-light .navbar-nav .nav-link:hover {
-    color: green;
-}
-
-.nav-item,
-.navbar-name {
-    margin: auto 0.75rem;
-}
-
-button.navbar-toggler {
-    outline-style: auto;
-    outline-color: lightgrey;
-    outline-width: 5px;
-}
-
-button.navbar-toggler:focus {
-    outline-style: auto;
-    outline-color: green;
-    outline-width: 5px;
-}
-
-
-/* About-Quality-Downloads */
-
-#aboutOualityDownloads {
-    padding: 3rem 2rem;
-}
-
-.about-quality-downloads {
-    text-align: center;
-    padding: 2rem;
-}
-
-.about-quality-downloads>h3 {
-    font-weight: 700;
-    margin-bottom: 2rem;
-}
-
-.about-quality-downloads>p {
-    color: grey;
-    font-family: 'Poppins', sans-serif;
-}
-
-.about-quality-downloads .btn {
-    font-family: 'Montserrat', sans-serif;
-    color: grey;
-    font-weight: 700;
-}
-
-.about-quality-downloads .btn:hover {
-    color: green;
-}
-
-.about-quality-downloads .btn:focus {
-    box-shadow: none;
-}
-
-.fas-icon {
-    color: green;
-    margin-bottom: 1rem;
-}
-
-.download-links {
-    list-style-type: none;
-    text-align: center;
-    padding: 0;
-}
-
-.download-item {
-    margin: 1rem auto;
-}
-
-.download-item>a {
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    color: grey;
-    font-weight: bold;
-}
-
-.download-item>a:hover {
-    color: green;
-}
-
-
-/* Product Cards */
-
-#productCards {
-    padding: 2rem 4rem;
-}
-
-#productCards>h3 {
-    text-align: center;
-    font-weight: 700;
-}
-
-.card-link {
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    color: grey;
-    font-weight: bold;
-}
-
-.card-link:hover {
-    color: green;
-}
-
-.card-column {
-    padding: 3rem 2rem;
-}
-
-.card>img {
-    height: 250px;
-}
-
-.card-title {
-    color: green;
-}
-
-.card-text {
-    color: grey;
-    font-family: 'Poppins', sans-serif;
-}
-
-.product-button {
-    font-family: 'Montserrat', sans-serif;
-    color: grey;
-    font-weight: 700;
-}
-
-.product-button:hover {
-    color: green;
-}
-
-.product-button:focus {
-    box-shadow: none;
-}
-
-
-/* Testimonials */
-
-#testimonials {
-    height: 500px;
-    background-color: grey;
-}
-
-#address-maps {
-    height: 500px;
-    background-color: blanchedalmond;
-}
+ a {
+     text-decoration: none;
+     color: grey;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: bold;
+ }
+ 
+ a:hover {
+     color: green;
+     text-decoration: none;
+ }
+ 
+ body {
+     font-family: 'Poppins', sans-serif;
+ }
+ 
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: 'Montserrat', sans-serif;
+     color: green;
+     font-weight: 700;
+ }
+ /* Bootstrap Button */
+ 
+ .btn {
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 700;
+     color: grey;
+ }
+ 
+ .btn:hover {
+     color: green;
+ }
+ 
+ .btn:focus {
+     box-shadow: none;
+ }
+ /* Section Heading */
+ 
+ .section-heading {
+     text-align: center;
+     margin-bottom: 3rem;
+ }
+ /* Navigation Bar */
+ 
+ .navbar-brand>h6 {
+     color: grey;
+ }
+ 
+ .navbar-light .navbar-nav .nav-link {
+     color: grey;
+     font-weight: 700;
+ }
+ 
+ .navbar-light .navbar-nav .active>.nav-link {
+     color: green;
+ }
+ 
+ .navbar-light .navbar-nav .nav-link:hover {
+     color: black;
+ }
+ 
+ .nav-item {
+     margin: auto 0.75rem;
+ }
+ 
+ button.navbar-toggler {
+     outline-style: auto;
+     outline-color: lightgrey;
+     outline-width: 1px;
+ }
+ 
+ button.navbar-toggler:active {
+     outline-style: auto;
+     outline-color: green;
+     outline-width: 1px;
+ }
+ /* About-Quality-Downloads */
+ 
+ #aboutOualityDownloads {
+     padding: 5rem 4rem;
+     margin: 3rem auto;
+     text-align: center;
+ }
+ 
+ .fas-icon {
+     color: green;
+     margin-bottom: 1rem;
+ }
+ 
+ .download-links {
+     list-style-type: none;
+     text-align: center;
+     padding: 0;
+ }
+ 
+ .download-item {
+     margin: 1rem auto;
+ }
+ /* Product Cards */
+ 
+ #productCards {
+     padding: 2rem 4rem;
+     margin: 3rem auto;
+     text-align: center;
+ }
+ 
+ .card-column {
+     padding: 3rem 2rem;
+ }
+ 
+ .card>img {
+     height: 250px;
+ }
+ 
+ .card-division {
+     background-color: #fff;
+     margin: 8px;
+     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+     border-radius: 2px;
+     overflow: hidden;
+ }
+ 
+ .dark-theme {
+     margin: 12px 12px 8px 12px;
+     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 4px 6px 0 rgba(0, 0, 0, 0.05);
+     border-radius: 4px;
+ }
+ /* Enquiry */
+ 
+ #enquiry {
+     padding: 2rem 4rem;
+     margin: 3rem auto;
+     text-align: center;
+ }
+ 
+ .input-box {
+     text-align: left;
+     text-transform: none;
+     border-radius: 4px;
+ }
+ 
+ .textarea-box {
+     width: 100% !important;
+     text-align: left;
+     text-transform: none;
+     border-radius: 4px;
+ }
+ 
+ .form-column {
+     padding-left: 10rem;
+     padding-top: 3rem;
+     padding-right: 10rem;
+ }
+ 
+ .form-control:focus {
+     color: #495057;
+     background-color: #fff;
+     outline: 0;
+     border-color: transparent;
+     box-shadow: 0 0 0 0.03rem green;
+ }
+ 
+ .send-btn {
+     float: right;
+     color: white;
+ }
+ 
+ .send-btn:hover {
+     color: whitesmoke;
+ }
+ /* Address and Maps */
+ 
+ #addressMaps {
+     padding: 2rem 4rem;
+     margin: 3rem auto;
+ }
+ 
+ .address-column {
+     padding: 4rem 3rem 4rem 4rem;
+ }
+ 
+ .address-column>h3 {
+     text-align: start;
+ }
+ 
+ .fas-icon-address {
+     color: green;
+     margin-right: 0.5rem;
+ }
+ 
+ .fas-icon-social {
+     margin: 0.5rem 1rem;
+ }
+ 
+ .fas-icon-facebook {
+     color: #3b5998;
+     margin-left: 0;
+ }
+ 
+ .fas-icon-twitter {
+     color: #1da1f2;
+ }
+ 
+ .fas-icon-instagram {
+     color: #e4405f;
+ }
+ 
+ .maps-column {
+     background-color: antiquewhite;
+ }
+ /* Copyright */
+ 
+ .manomaya-link:hover {
+     color: blue;
+ }
+ 
+ @media (max-width:1020px) {
+     .form-column {
+         padding-left: 1rem;
+         padding-right: 1rem;
+     }
+     .about-column {
+         margin-bottom: 2rem;
+     }
+     #aboutOualityDownloads,
+     #productCards {
+         padding: 3rem 4rem 0rem;
+     }
+     .address-column,
+     .maps-column {
+         padding: 1.5rem 2rem;
+     }
+     .maps-column {
+         margin-top: 1rem;
+     }
+ }
+ 
+ .round-image {
+     max-width: 150px;
+     max-height: 150px;
+ }
